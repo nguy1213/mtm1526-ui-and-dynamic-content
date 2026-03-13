@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backpack Market | Shopping List</title>
+
+    <!-- FONT AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/f203040fe7.js" crossorigin="anonymous"></script>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="page_wrapper">
+
+        <section class="shopping_widget">
+
+            <!-- MASTHEAD BEGINS HERE -->
+            <header class="masthead">
+
+                <div class="masthead_image_box">
+                    <img src="img/stylish-casual-african-american-man-jeans-jacket-black-beret-holding-basket-standing-near-gastronomic-fridge-shopping-supermarket.jpg" alt="Backpack Market travel grocery banner" class="masthead_image">
+                </div>
+
+                <p class="store_tagline">Grab. Pack. Explore.</p>
+                <h1 class="store_title">Backpack Market</h1>
+                <p class="store_description">Build your grocery list for road trips, long rides, airport runs and camping weekends.</p>
+
+            </header>
+            <!-- MASTHEAD ENDS HERE -->
+
+            <!-- MAIN CONTENT BEGINS HERE -->
+            <main class="main_content">
+
+                <div class="input_section">
+
+                    <label for="grocery_input" class="input_label">ADD A GROCERY ITEM</label>
+
+                    <!-- TEXT INPUT -->
+                    <input type="text" id="grocery_input" class="grocery_input" 
+                        placeholder="Example: fruit mix, water bottle, instant noodles...">
+
+                    <!-- BUTTONS -->
+                    <div class="button_row">
+
+                        <button id="add_item_button" class="add_item_button" type="button">Add To List</button>
+                        <button id="save_list_button" class="save_list_button" type="button" aria-label="Save list">Save List</button>
+                    </div>
+
+                    <!-- FEEDBACK MESSAGE PARAGRAPH -->
+                    <p id="feedback_message" class="feedback_message"></p>
+                </div>
+
+                <!-- LIST SECTION -->
+                <section class="list_section">
+                    <h2 class="list_heading">Your Grocery Notes</h2>
+                    <ol id="grocery_list" class="grocery_list"></ol>
+                </section>
+
+            </main>
+            <!-- MAIN CONTENT ENDS HERE -->
+
+            <!-- FOOTER BEGINS HERE -->
+            <footer class="footer_social">
+
+                <a href="https://maps.google.com" target="_blank" aria-label="Google Maps">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </a>
+
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </footer>
+            <!-- FOOTER ENDS HERE -->
+
+        </section>
+
+    </div>
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="js/main.js"></script>
+</body>
+</html>
